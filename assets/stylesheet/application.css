@@ -1,0 +1,53 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  margin: 1em;
+}
+
+#shortcut-key{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#shortcut-key tr{
+  /*page-break-inside: avoid;*/
+  /*page-break-after: always;*/
+}
+
+#shortcut-key td, #shortcut-key th{
+  border: 1px solid #999;
+  line-height: 2em;
+}
+
+#shortcut-key td{
+  padding-left: 0.5em;
+}
+
+#shortcut-key > thead > tr > th:first-child{
+  width: 25%;
+}
+
+#shortcut-key > thead{
+  background: #ccc;
+}
+
+#shortcut-key > tbody{
+  page-break-after:always
+}
+
+#shortcut-key > tbody:nth-child(2n){
+  background: #ececec;
+}
+
+#shortcut-key > tbody:nth-child(2n+1){
+  background: #fefefe;
+}
+
+#shortcut-key > caption {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
