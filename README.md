@@ -6,6 +6,8 @@
 
 ![Sublime 快键键展示](http://ww2.sinaimg.cn/large/6473e757jw1em9nai0w84j21kw0pk0xp.jpg)
 
+同时，直接下载这个项目, 并打开 index.html 你就能够获得已经配置好的完成的的 Mac 版 Sublime Text3 的快捷键。
+
 #### 使用
 
 根据自己的需要配置 javascript/lib/shortcut_key_data.js, 然后打开 index.html 文件即可. 配置说明如下：
